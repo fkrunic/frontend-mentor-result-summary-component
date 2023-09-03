@@ -157,6 +157,9 @@
           rounded-full
           
           bg-dark-gray-blue
+
+          hover:bg-gradient-to-b from-light-slate-blue to-light-royal-blue
+          hover:cursor-pointer
           ">
           <p class="text-pale-blue font-bold">Continue</p>
         </div>
