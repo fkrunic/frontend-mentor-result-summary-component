@@ -13,7 +13,14 @@
         flex-col 
         items-center
 
+        py-8
+        px-12
+        gap-6
+
         bg-gradient-to-b from-light-slate-blue to-light-royal-blue
+
+        rounded-bl-3xl
+        rounded-br-3xl
         ">
 
 
@@ -24,17 +31,20 @@
           flex 
           flex-col 
           items-center
+
+          p-8
+          rounded-full
           
-          bg-gradient-to-b from-violet-blue to-persian-blue
-          
+          bg-gradient-to-b from-violet-blue to-persian-blue          
           ">
-          <p>76</p>
-          <p>of 100</p>
+          <p class="text-5xl text-white font-black">76</p>
+          <p class="text-light-lavender/50 text-sm font-bold">of 100</p>
         </div>
 
-        <div class="flex flex-col items-center">
-          <p>Great</p>
-          <p>
+        <!-- Assessment Callout -->
+        <div class="flex flex-col items-center gap-2">
+          <p class="text-white font-bold text-xl text-center">Great</p>
+          <p class="text-light-lavender text-sm text-center">
             You scored higher than 65% of the people who have taken these tests.
           </p>        
         </div>
