@@ -23,7 +23,6 @@
         rounded-br-3xl
         ">
 
-
         <p class="font-bold text-light-lavender">Your Result</p>
 
         <!-- Score Callout -->
@@ -51,65 +50,115 @@
       </div>
 
       <!-- Content -->
-      <div class="flex flex-col">
-        <p>Summary</p>
+      <div class="flex flex-col p-6 gap-6">
+        <p class="font-black text-dark-gray-blue">Summary</p>
 
         <!-- Scores -->
-        <div>
+        <div class="flex flex-col gap-4">
           
           <!-- Reaction Score -->
-          <div class="flex flex-row">
-            <div class="flex flex-row">
+          <div class="
+            flex 
+            flex-row 
+            justify-between 
+
+            p-4
+            
+            bg-light-red/10 
+
+            rounded-lg
+            ">
+            <div class="flex flex-row items-center gap-2">
               <img src="./assets/img/icon-reaction.svg" alt="reaction">
-              <p>Reaction</p>
+              <p class="font-bold text-light-red text-sm">Reaction</p>
             </div>
-            <div class="flex flex-row">
-              <p>80</p>
-              <p>/ 100</p>
+            <div class="flex flex-row gap-1">
+              <p class="font-black text-sm text-dark-gray-blue">80</p>
+              <p class="font-black text-sm text-dark-gray-blue/50">/ 100</p>
             </div>
           </div>
 
           <!-- Memory Score -->
-          <div class="flex flex-row">
-            <div class="flex flex-row">
+          <div class="
+            flex 
+            flex-row 
+            justify-between 
+
+            p-4
+            
+            bg-orangey-yellow/10 
+            
+            rounded-lg
+            ">
+            <div class="flex flex-row items-center gap-2">
               <img src="./assets/img/icon-memory.svg" alt="memory">
-              <p>Memory</p>
+              <p class="font-bold text-orangey-yellow text-sm">Memory</p>
             </div>
-            <div class="flex flex-row">
-              <p>92</p>
-              <p>/ 100</p>
+            <div class="flex flex-row gap-1">
+              <p class="font-black text-sm text-dark-gray-blue">92</p>
+              <p class="font-black text-sm text-dark-gray-blue/50">/ 100</p>
             </div>
           </div>
           
           <!-- Verbal Score -->
-          <div class="flex flex-row">
-            <div class="flex flex-row">
+          <div class="
+            flex 
+            flex-row 
+            justify-between
+            
+            p-4
+            
+            bg-green-teal/10 
+            
+            rounded-lg
+            ">
+            <div class="flex flex-row items-center gap-2">
               <img src="./assets/img/icon-verbal.svg" alt="verbal">
-              <p>Verbal</p>
+              <p class="font-bold text-green-teal text-sm">Verbal</p>
             </div>
-            <div class="flex flex-row">
-              <p>61</p>
-              <p>/ 100</p>
+            <div class="flex flex-row gap-1">
+              <p class="font-black text-sm text-dark-gray-blue">61</p>
+              <p class="font-black text-sm text-dark-gray-blue/50">/ 100</p>
             </div>
           </div>
           
           <!-- Visual Score -->
-          <div class="flex flex-row">
-            <div class="flex flex-row">
+          <div class="
+            flex 
+            flex-row 
+            justify-between 
+
+            p-4
+            
+            bg-cobalt-blue/10 
+            
+            rounded-lg
+            ">
+            <div class="flex flex-row items-center gap-2">
               <img src="./assets/img/icon-visual.svg" alt="visual">
-              <p>Visual</p>
+              <p class="font-bold text-cobalt-blue text-sm">Visual</p>
             </div>
-            <div class="flex flex-row">
-              <p>72</p>
-              <p>/ 100</p>
+            <div class="flex flex-row gap-1">
+              <p class="font-black text-sm text-dark-gray-blue">72</p>
+              <p class="font-black text-sm text-dark-gray-blue/50">/ 100</p>
             </div>
           </div>        
 
         </div>
 
         <!-- Button -->
-        <div class="bg-dark-gray-blue">
-          <p class="text-pale-blue">Continue</p>
+        <div class="
+          flex 
+          flex-row 
+          justify-center 
+
+          p-4
+
+          rounded-full
+          
+          bg-dark-gray-blue
+          ">
+          <p class="text-pale-blue font-bold">Continue</p>
         </div>
 
       </div>
